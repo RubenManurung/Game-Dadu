@@ -1,4 +1,5 @@
 function playDice(){
+
   let btnSound = new Audio("sounds/crash.mp3");
   btnSound.play();
   let numberOneToSix = Math.floor(Math.random()*6)+1;
